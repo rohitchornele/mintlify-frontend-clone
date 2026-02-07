@@ -227,12 +227,31 @@ form button {
   margin: 10px 0;
 }
 
+.feature-highlights {
+  margin: 50px 0;
+  margin-bottom: 120px;
+}
+
+.feature-highlights h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.feature-highlights p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  margin: 20px 0;
+}
+
 .feature-cards {
   max-width: 1024px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .feature-card {
@@ -285,7 +304,15 @@ form button {
 }
 
 .enterprise-features {
-  padding: 80px 0;
+  width: 100%;
+  background: var(--second-bg-color);
+  padding-top: 100px;
+  padding-bottom: 0;
+
+}
+
+.enterprise-features-div {
+  /* padding: 30px 0; */
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -321,7 +348,7 @@ form button {
 }
 
 .main-features {
-  padding: 40px 0;
+  padding-top: 50px;
   display: flex;
   gap: 48px;
 }
@@ -347,9 +374,18 @@ form button {
 }
 
 .case-studies {
+  width: 100%;
+  padding: 80px 0;
+  /* height: 100%; */
+  background: var(--second-bg-color);
+  
+}
+
+.case-studies-div {
   max-width: 1024px;
   margin: 0 auto;
   position: relative;
+  /* z-index: -3; */
 }
 
 .image-card {
@@ -357,6 +393,8 @@ form button {
     display: flex;
     flex-direction: column;
     /* align-items: center; */
+    gap: 150px;
+    height: 100%;
 }
 
 .image-card img {
@@ -364,9 +402,57 @@ form button {
   top: 0;
   left: 0;
   border-radius: 20px;
-  z-index: -99;
+  margin: 0 auto;
+  /* z-index: -2; */
+}
+
+.top-section, .bottom-section {
+  z-index: 2;
+  padding: 20px 40px;
+}
+
+.top-section p {
+  text-transform: uppercase;
+  font-size: 11px;
+  margin: 20px 0;
+}
+
+.top-section h3 {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 20px 0;
+}
+
+.image-card span {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
 }
 
 .image-card svg {
-    width: 12px;
+    width: 10px;
+    rotate: -90deg;
+}
+
+.bottom-section {
+  display: flex;
+  gap: 32px;
+}
+
+.number {
+  font-size: 32px;
+}
+
+.number-desc {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+
+.company-list {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
 }
