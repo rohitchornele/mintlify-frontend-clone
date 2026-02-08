@@ -68,14 +68,14 @@ The focus was on layout precision, sidebar structure, content hierarchy, typogra
    - Card-based layout  
    - Image + short descriptive text  
 
-<!-- 9. Final Call-To-Action Section  
+9. Final Call-To-Action Section  
    - Strong heading  
    - CTA buttons  
 
 10. Footer  
     - Multi-column link layout  
     - Company information  
-    - Legal links   -->
+    - Legal links  
 
 ---
 
